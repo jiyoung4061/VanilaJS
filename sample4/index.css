@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+}
+.center {
+  align-items: center;
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+  list-style: none;
+}
+.center li {
+  padding: 10px 10px;
+}
+.center li:hover{
+    background-color: lawngreen;
+}
+.logo {
+    font-size: 24px;
+}
+.navnav {
+    display: flex;
+  color: ivory;
+  padding: 10px 10px;
+  justify-content: space-between;
+  background-color: #0b0b3b;
+  align-items: center;
+}
+.hamburger {
+    position: absolute;
+    display: none;
+    font-size: 24px;
+}
+.navber__icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.navber__icons li{
+    list-style: none;
+}

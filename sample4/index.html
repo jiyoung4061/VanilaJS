@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="styles.css" />
+    <script src="https://kit.fontawesome.com/2d323a629b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navnav">
+            <div class="logo">
+                <i class="fab fa-apple"></i>
+                <span>JIYOUNG</span>
+            </div>
+            <ul class="center">
+                <li>
+                    <a href="/">home</a>
+                </li>
+                <li>
+                    <a href="/">about</a>
+                </li>
+                <li>
+                    <a href="/">Gallery</a>
+                </li>
+                <li>
+                    <a href="/">FAQ</a>
+                </li>
+            </ul>
+            <button class="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="navber__icons">
+                    <li><i class="fab fa-facebook"></i></li>
+                    <li><i class="fab fa-facebook"></i></li>
+                    <li><i class="fab fa-facebook"></i></li>
+            </ul>
+        </nav>
+    </header>
+    <script>
+        var hamburger = document.querySelector('.hamburger')
+        const menu = document.querySelector('.center');
+
+        hamburger.addEventListener('click', function(e){
+            menu.classList.toggle('toggle')
+        })
+
+
+    </script>
+</body>
+
+</html>

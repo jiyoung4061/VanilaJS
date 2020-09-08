@@ -1,0 +1,23 @@
+.hamburger {
+  display: flex;
+  position: absolute;
+  right: 32px;
+}
+.navber__icons {
+  display: none;
+}
+.center {
+  display: none;
+  flex-direction: column;
+  width:100%;
+  align-items: center;
+}
+.toggle {
+  display: flex;
+}
+
+.navnav {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 8px 24px;
+}
